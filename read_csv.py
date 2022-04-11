@@ -15,7 +15,7 @@ plt.plot(x, y, color = 'g', linestyle = 'dashed',
          marker = 'o',label = "History Temperature")
   
 plt.xticks(rotation = 25)
-plt.xlabel('Hora')
+plt.xlabel('Minutes')
 plt.ylabel('Temperature(°C)')
 plt.title('Temperature History', fontsize = 20)
 plt.grid()
