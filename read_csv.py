@@ -5,7 +5,7 @@ import csv
 x = []
 y = []
   
-with open('temperature_history.csv','r') as csvfile:
+with open('temperature_history2.csv','r') as csvfile:
     lines = csv.reader(csvfile, delimiter=',')
     for row in lines:
         x.append(row[0])

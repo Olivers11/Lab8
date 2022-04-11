@@ -6,7 +6,6 @@ last_value = 0
 counter = 0
 temperature_list = []
 
-
 while True:
     temp = str(TARGET.readline())
     size = len(temp)-5
@@ -21,7 +20,6 @@ while True:
         break
 
     last_value = temp
-
 
 os.system('clear')
 suma = 0

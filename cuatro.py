@@ -11,7 +11,7 @@ while True:
     size = len(temp)-8
     temp = temp[2:size]
     print(temp)
-    with open("temperature_history.csv", "a") as f:
+    with open("temperature_history2.csv", "a") as f:
         writer = csv.writer(f, delimiter=",")
         final = datetime.now()
         _time = final - initial
